@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES2015",
+
+    // "lib": ["DOM"],
+    // "outDir": "./dist",
+    // "outFile": "./dist/ts.js",
+    
+    // "allowJs": true,
+    // "checkJs": true,
+    // "removeComments": true,
+    // "noEmit": false,   //  不生成编译后的文件
+    "noEmitOnError": true,  //  当有错误时不生成编译文件
+
+    // "strict": true, //  启用严格类型检查
+    // "alwaysStrict": true,   //  开启严格模式
+    // "noImplicitAny": false,  //  不允许隐式的any类型
+    // "noImplicitThis": true,
+    // "strictNullChecks": true
+  },
+
+  "include": [
+    "src/**/*"
+  ],
+
+  "exclude": [
+    "node_modules"  //默认值
+  ]
+}
